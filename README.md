@@ -25,6 +25,7 @@ Now all you need the chrome webdriver for your version of google chrome (if you 
 Find your version using this tutorial: https://help.zenplanner.com/hc/en-us/articles/204253654-How-to-Find-Your-Internet-Browser-Version-Number-Google-Chrome
 Here's how you get the webdriver:
 
+---
 ### Linux
 
 - make sure you have wget and unzip. Type in `wget --version` and `unzip --version`. If nothing shows up, 
@@ -57,6 +58,10 @@ Haven't tested this yet. A similar installion method to linux, just get the zip 
 make sure that folder is in your environment variables
 
 ---
+
+Finally, you need to set up some nordvpn config files for openvpn. This is easy to follow here: https://support.nordvpn.com/Connectivity/Linux/1047409422/How-can-I-connect-to-NordVPN-using-Linux-Terminal.htm
+
+then run nordvpn.py and it should connect
 
 TODO's
 - [ ] Mac Version
